@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b296e42-7e64-4813-8473-cfae4fc79ebf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>pages\server.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,7 +32,7 @@
     <Compile Include="pages\chatrules.js">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="server.js" />
+    <Compile Include="pages\server.js" />
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
