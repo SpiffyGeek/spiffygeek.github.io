@@ -32,9 +32,6 @@
     <Compile Include="pages\chatrules.js">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pages\filetest.js">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="server.js" />
     <Content Include="index.html">
       <SubType>Code</SubType>
