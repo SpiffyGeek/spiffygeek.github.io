@@ -1,8 +1,10 @@
-'use strict';
-var http = require('http');
-var port = process.env.PORT || 1337;
+var app = require('express')();
+var http = require('http').createServer(app);
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-}).listen(port);
+app.get('/', function (req, res) {
+    res.sendFile(__dirname + '/pages/chatroom.html');
+});
+
+http.listen(3000, function(){
+  console.log('listening on *:3000');
+});
