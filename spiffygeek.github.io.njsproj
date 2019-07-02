@@ -37,9 +37,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
-    <Content Include="pages\chatroom.html">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="pages\chatroom.php" />
     <Content Include="README.md" />
     <Content Include="serverrules.htaccess" />
   </ItemGroup>
