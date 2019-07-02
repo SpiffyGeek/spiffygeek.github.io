@@ -36,12 +36,12 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="index.php" />
     <Content Include="package.json" />
     <Content Include="pages\chatroom.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="README.md" />
+    <Content Include="serverrules.htaccess" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="pages\" />
